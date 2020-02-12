@@ -1,0 +1,74 @@
+p {
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 20px;
+}
+h1 {
+width: 960px;
+text-align: center;
+margin: 50px auto 50px auto;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+background-color: palegreen;
+color: red;
+font-family: 'Lemonada', cursive;
+box-shadow: inset 5px 10px 5px gray;
+border-radius: 10px;
+
+}
+
+#one {
+    
+    border: 5px dashed red ;
+    padding: 0px;
+    margin-right: 20px;
+    width: 300px;
+    margin: 50px;
+    
+}
+
+#two {
+    
+   border: 5px solid green;
+   margin-right: 20px;
+   padding: 0px;
+   width: 400px;
+   margin: 50px auto 50px auto ;
+   display: none;
+   
+   
+}
+#three {
+    
+    border: 5px dashed red;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding: 0px;
+    width: 200px; 
+    margin-left: 100px;
+    visibility: hidden;
+
+}
+#phones{
+    list-style-type: circle;
+}
+#number{
+    list-style-type: square;
+}
+#days{
+    list-style-type: upper-alpha;
+}
+#menu{
+    list-style-type: upper-roman;
+}
+#deset{
+    list-style-image: url(image.jpg);
+    width: 200px;
+}
+#slika{
+    list-style-image: url(image.jpg);
+    width: 200px;
+    list-style-position: inside;
+}
