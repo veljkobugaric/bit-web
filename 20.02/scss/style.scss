@@ -1,0 +1,77 @@
+$home-color: purple;
+$page-width: 500px;
+@import 'mixin';
+
+body  {
+    background-color: $home-color;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body h1{
+    padding: 20px 0;
+    text-align: center;
+    background: #2962ff;
+    color: white;
+}
+
+.container {
+    width: $page-width;
+    margin: 0 auto;
+    @include box-shadow(20px);
+}
+
+body h2{ margin-bottom: 0px;
+    padding-left: 10px;
+    text-align: left;
+    background: #2979ff;
+    color: $home-color;
+    @include box-shadow(25px);
+
+}
+
+
+ body img {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    color: #333;
+    background: white;
+    border-collapse: collapse;
+    @include text-shadow(35px);
+}
+
+tr {
+    border-bottom: 1px solid #eee;
+}
+
+td {
+    padding: 5px 0;
+}
+
+td:first-child {
+    width: 300px;
+    padding-left: 10px;
+}
+
+p#footer {
+    margin-top: 100px;
+}
+.one {
+    color: white;
+    background-color: indigo;
+    border: 5px dotted red;
+}
+.two {
+    border: 8px dashed blue ;
+    @extend .one
+}
+.three{
+    border: 15px double green;
+    @extend .two
+}
