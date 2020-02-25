@@ -1,0 +1,24 @@
+
+
+img {
+    height:100px;
+    text-align: center;
+    padding-left: 60px;
+}
+div table{
+    margin: 0 auto;
+}
+.header{
+    background-color: red;
+}
+th,td{
+    padding: 10px 0px;
+}
+.hover:hover{
+    background-color: yellow;
+
+}
+
+.boja {
+    background-color: grey;
+}

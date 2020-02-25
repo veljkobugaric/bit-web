@@ -1,0 +1,22 @@
+.one {
+    position: relative;
+    top:50px;
+    left:100px;
+    margin-bottom: 100px;
+}
+.two {
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+.three {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.link{
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    background-color: hotpink;
+}

@@ -1,0 +1,69 @@
+ 
+ form {
+   width: 350px;
+   background-color: lightgrey;
+   border-radius: 15px 0px 15px 0px;
+   margin: 0 auto;
+}
+hr {
+    width: 85%;
+    margin: 0px 15px 35px 25px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding-top: 50px;
+    text-align: center;
+    }
+
+span {
+    color: orange;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 0px 25px;
+          
+}
+/****************** INPUT ****************/
+input {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px 15px 10px 5px;
+    box-shadow: 1px 1px 5px 0px black;
+    width: 80%;
+}
+/****************** INPUT Placeholder ****************/
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    opacity: 1; /* Firefox */
+    padding: 10px 0px 10px 5px;  }
+  
+  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px 0px 10px 5px;
+  }
+  
+  input::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    padding: 10px 0px 10px 5px;
+  }
+
+/************* SUBMIT Button **************/
+#button {
+    width: 88%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 10px 0px;
+}
+.cell {cursor: cell;}
+
