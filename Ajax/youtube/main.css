@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(187, 0, 0)
+}
+header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.main{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.main img{
+    width: 300px;
+    height: 300px;
+}
+.main h2{
+    color: white;
+}
+article{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+.search{
+
+    margin: auto;
+    margin-top: 100px
+}
+input{
+    width: 500px;
+    height: 30px;
+}
+button{
+    width: 150px;
+    height: 35px;
+}
