@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #313030;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+h2.logo {
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10%;
+}
+
+input.search {
+  height: 30px;
+  width: 150px;
+  margin-right: 10%;
+}
+
+/*# sourceMappingURL=main.css.map */
