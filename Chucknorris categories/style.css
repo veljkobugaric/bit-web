@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    color: black !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    background: rgb(231, 100, 13);
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin: 5px;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+}
+
+.buttons:hover {
+    background: rgba(240, 235, 235, 0.911);
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+
+}
+img{
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text {
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    box-sizing: content-box;
+    width: 600px;
+    border: 1px solid rgb(32, 31, 31);
+    border-radius: 15px;
+}
